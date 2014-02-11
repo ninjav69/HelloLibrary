@@ -14,4 +14,8 @@ public class HelloService {
     public String sayHello(String message) {
         return "Hello, " + message;
     }
+
+    public String sayGoodbye(String message) {
+        return "Goodbye, " + message;
+    }
 }
