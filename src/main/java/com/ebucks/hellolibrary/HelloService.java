@@ -18,4 +18,8 @@ public class HelloService {
     public String sayGoodbye(String message) {
         return "Goodbye, " + message;
     }
+
+    public String sayWhat() {
+        return "What?";
+    }
 }
